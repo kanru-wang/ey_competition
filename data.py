@@ -65,8 +65,8 @@ def df_other_cleaner(df):
     def x1(x):
         return x * 1.0
 
-    #return df.fillna(-99999999999).apply(x1)
-    return df.apply(x1)
+    return df.fillna(-99999999999).apply(x1)
+    #return df.apply(x1)
 
 
 def get_col_type_lists(df):
